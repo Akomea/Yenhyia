@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989836439018",
+    "firebase_url": "https://yenhyia-98502.firebaseio.com",
+    "project_id": "yenhyia-98502",
+    "storage_bucket": "yenhyia-98502.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989836439018:android:41289267451c9388",
+        "android_client_info": {
+          "package_name": "ghsoft.yenhyia_chatmeetdating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989836439018-5u46e1jet7oek0sc8l87uns073776ghn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ghsoft.yenhyia_chatmeetdating",
+            "certificate_hash": "8f3c1fced6b583a51a91f93a2afafee4267aa0b5"
+          }
+        },
+        {
+          "client_id": "989836439018-snm9s39jega449avje2dqbh6bc2h497v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBppn4QjOIST8xOc689lWrmhEiOrNWcMaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989836439018-snm9s39jega449avje2dqbh6bc2h497v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
