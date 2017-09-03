@@ -13,9 +13,6 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import static ghsoft.yenhyia_chatmeetdating.R.id.container;
-import static ghsoft.yenhyia_chatmeetdating.R.id.text;
-
 public class DetailFragment extends Fragment {
     public static DetailFragment newInstance() {
         DetailFragment detailFragment = new DetailFragment();
@@ -25,14 +22,18 @@ public class DetailFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
     }
-
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater){
+        menu.clear();
+        inflater.inflate(R.menu.menu_profile,menu);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         View v = inflater.inflate(R.layout.fragment_detail, container, false);
-
 
         Toolbar myToolbar = v.findViewById(R.id.detail_toolbar);
         ((AppCompatActivity)getActivity()).setSupportActionBar(myToolbar);

@@ -79,7 +79,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="message">Message</string>
+    <string name="help">Help</string>
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -198,4 +198,6 @@
         "\n"
     </string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="favourite">Favourite</string>
+    <string name="settings">Settings</string>
 </resources>

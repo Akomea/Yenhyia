@@ -13,6 +13,7 @@ public class BaseActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        menu.clear();
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_menu, menu);
         return true;
@@ -28,14 +29,12 @@ public class BaseActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, PhoneAuthActivity.class);
                 startActivity(intent);
                 return true;
-
             case R.id.set:
                 // User chose the "Favorite" action, mark the current item
                 // as a favorite...
                 Intent set_intent = new Intent(this, SettingsActivity.class);
                 startActivity(set_intent);
                 return true;
-
 
             default:
                 // If we got here, the user's action was not recognized.

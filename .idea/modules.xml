@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Yenhyia-Chat,Meet&amp;Dating.iml" filepath="$PROJECT_DIR$/Yenhyia-Chat,Meet&amp;Dating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Yenhyia.iml" filepath="$PROJECT_DIR$/Yenhyia.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
